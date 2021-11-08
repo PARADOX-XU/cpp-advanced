@@ -9,6 +9,4 @@ bool isleapyear(int inyear){
 			return true;}
 	else
 		return false;
-
-      return 0;
 }
