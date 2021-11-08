@@ -1,5 +1,5 @@
 float bmimetricf(int weight, float height){
-	float floatBMI = 0;
+	float floatBMI;
 	floatBMI = (float) weight /(height * height); 
 	return floatBMI;
 }
