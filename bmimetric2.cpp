@@ -11,24 +11,19 @@ string strCDC(float BMI){
 }
 
 int main(){
-		float price1, price2, tax;
-
+	float price1, price2, tax;
 	char club;
 
 	cout <<"Enter price of the first item: ";
 	cin >> price1;
-
 	cout <<"Enter price of the second item ";
 	cin >> price2;
-
 	cout << "Does customer have a club card? (Y/N): ";
 	cin >> club;
-
 	cout << "Enter tax rate, e.g. 5.5 for 5.5% tax: ";
 	cin >> tax;
 
 	floatBMI = weight /(height * height); 
-
 	intBMI = (int) ((floatBMI * 100)+0.5);
 
 	cout << "BMI is: " << (float) intBMI/100 << ", Status is "<< strCDC(floatBMI) << endl;
